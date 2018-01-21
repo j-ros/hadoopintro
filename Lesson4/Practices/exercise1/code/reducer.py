@@ -18,7 +18,7 @@ for line in sys.stdin:
         print oldKey, "\t", sorted(set(indexes)), "\t", count
         oldKey = thisKey;
         indexes = [int(thisIndex)]
-	count = 0
+		count = 0
 
     oldKey = thisKey
     indexes.append(int(thisIndex))
