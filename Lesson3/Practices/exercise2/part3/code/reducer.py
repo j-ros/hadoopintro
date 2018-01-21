@@ -13,6 +13,8 @@ maxHits = 0
 #
 # All the path will be presented,
 # then the key will change and we'll be dealing with the next path
+#
+# Compute path with maximum hits and its hit value
 
 for line in sys.stdin:
     data_mapped = line.strip()

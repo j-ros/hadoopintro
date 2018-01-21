@@ -11,6 +11,8 @@ oldKey = None
 #
 # All the sales for a particular store will be presented,
 # then the key will change and we'll be dealing with the next store
+#
+# Compute maximum sale by store
 
 for line in sys.stdin:
     data_mapped = line.strip().split("\t")

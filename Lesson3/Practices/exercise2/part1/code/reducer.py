@@ -11,6 +11,8 @@ oldKey = None
 #
 # All the paths will be presented,
 # then the key will change and we'll be dealing with the next path
+#
+# Compute totalHits by path
 
 for line in sys.stdin:
     data_mapped = line.strip()

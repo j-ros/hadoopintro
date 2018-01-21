@@ -2,6 +2,11 @@
 
 import sys
 
+#Input is records containing (word, nodeID) for each word in the record body sorted by word (tab delimited).
+#
+#For each word, output a sorted list with the (unique) nodeID where it appears and a count of the times
+#it appears in the record body.
+
 oldKey = None
 indexes = []
 count = 0

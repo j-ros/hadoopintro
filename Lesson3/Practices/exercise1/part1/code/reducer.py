@@ -11,6 +11,8 @@ oldKey = None
 #
 # All the sales for a particular item will be presented,
 # then the key will change and we'll be dealing with the next store
+#
+# Compute sum of sales for each item name
 
 for line in sys.stdin:
     data_mapped = line.strip().split("\t")

@@ -11,6 +11,8 @@ oldKey = None
 #
 # All the ip will be presented,
 # then the key will change and we'll be dealing with the next ip
+#
+# Compute total hits by ip.
 
 for line in sys.stdin:
     data_mapped = line.strip()
