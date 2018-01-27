@@ -20,4 +20,8 @@ Work from the [Intro to Hadoop and MapReduce](https://eu.udacity.com/course/intr
 
 ### Lesson 4
 
-- Use common patterns for MapReduce programs to analyze Udacity forum data.
+- Use common patterns for MapReduce programs. 
+
+### Project
+
+- Analyze Udacity forum data using MapReduce design patterns learned.
